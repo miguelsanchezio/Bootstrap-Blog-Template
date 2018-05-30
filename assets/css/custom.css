@@ -40,6 +40,23 @@ img {
   max-width: 100%;
 }
 
+blockquote {
+  padding: 0;
+  border: none;
+  font-style: italic;
+  text-align: left;
+}
+
+blockquote cite {
+  display: block;
+  color: #777;
+  margin: 15px 0 0 0;
+}
+
+blockquote::before {
+  display: none;
+}
+
 button, input, .btn, a.btn {
   color: #fff;
 }
@@ -223,6 +240,18 @@ section h3 {
   display: block;
   font-size: 20px;
   font-weight: normal;
+}
+
+#testimonials {
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 60px;
+}
+
+.testimonial img {
+  border-radius: 50%;
 }
 
 /* CUSTOM ICON SPRITES */
