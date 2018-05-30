@@ -36,6 +36,14 @@ h4 {
   font-size: 18px;
 }
 
+img {
+  max-width: 100%;
+}
+
+button, input, .btn, a.btn {
+  color: #fff;
+}
+
 .btn {
   font-weight: bold;
 }
@@ -104,4 +112,16 @@ h4 {
   color: #fff;
   font-weight: bold;
   display: block;
+}
+
+/* LAYOUT */
+#optin {
+  background: var(--bluegray-color);
+  padding: 20px 0;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#optin p {
+  margin: 7px 0 0 0;
 }
