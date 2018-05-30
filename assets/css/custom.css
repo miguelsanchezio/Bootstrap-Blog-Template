@@ -52,6 +52,36 @@ button, input, .btn, a.btn {
   background-color: var(--salmon-color);
   border-collapse: #d95131;
 }
+
+.modal-content {
+  background: url('../img//tile.jpg') top left repeat;
+}
+
+.badge.social {
+  background: #ccc;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  line-height: 41px;
+  text-align: center;
+  margin: 0 5px 20px 0;
+  padding: 0;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.badge.social.twitter:hover {
+  background: #55acee;
+}
+
+.badge.social.facebook:hover {
+  background: #3b5998;
+}
+
+.badge.social.gplus:hover {
+  background: #db4b39;
+}
+
 /* HERO */
 #hero {
   background: url('../img/hero-bg.jpg') 50% 0 repeat fixed;
@@ -165,6 +195,34 @@ section h3 {
 
 #instructor {
   background: white url('../img/brad-elvis.png') 90% -10px no-repeat;
+}
+
+#instructor h2 {
+  margin: 0 0 20px;
+}
+
+#instructor .num {
+  display: table;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 24px;
+  height: 140px;
+  width: 140px;
+  text-align: center;
+  background: #dd5638;
+  border-radius: 100%;
+}
+
+#instructor .num .num-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#instructor .num span {
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 /* CUSTOM ICON SPRITES */
