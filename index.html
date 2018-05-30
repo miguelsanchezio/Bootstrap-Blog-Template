@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/font-awesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome/css/fontawesome-all.min.css">
   <link rel="icon" href="assets/img/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/custom.css">
@@ -76,9 +76,13 @@
                   <small>Ends soon!</small>
                 </h4>
                 <span>$399</span>
-              </div><!-- price -->
-            </div><!-- price-timeline -->
-            <p><a href="#" class="btn btn-lg btn-danger">Enroll &raquo;</a></p>
+              </div>
+              <!-- price -->
+            </div>
+            <!-- price-timeline -->
+            <p>
+              <a href="#" class="btn btn-lg btn-danger">Enroll &raquo;</a>
+            </p>
           </div>
         </div>
       </div>
@@ -149,8 +153,39 @@
   </footer>
 
   <!-- MODAL -->
-  <div>
-
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalLabel">
+            <i class="fas fa-envelope"></i> Subscribe To Our Mailing List</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ab aperiam voluptatibus asperiores perspiciatis facilis
+            eum voluptates dolorum unde ducimus.</p>
+          
+          <form>
+            <div class="form-group">
+              <label for="subscribe-name">Your Name</label>
+              <input type="text" class="form-control" id="subscribe-name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="subscribe-email">Your Email</label>
+              <input type="email" class="form-control" id="subscribe-email" placeholder="Your Email">
+            </div>
+            <button type="submit" class="btn btn-danger text-center">Subscribe!</button>
+          </form>
+          <hr>
+          <p><small>By providing your email you consent to receiving occasional promotional emails &amp; newsletters. No Spam. Just good stuff. We respect your privacy &amp; you may unsubscribe at any time.</small></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
   </div>
 
   <script src="assets/js/jquery.js"></script>
