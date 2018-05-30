@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome/css/fontawesome-all.min.css">
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <title>Bootstrap to Wordpress</title>
+</head>
+
+<body class="blog">
+  <!-- HEADER -->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.png" alt="website logo">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  
+
+  <!-- SIGN UP -->
+  <section id="signup" data-type="background" data-speed="4">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-sm-6">
+          <h2>Are you ready to take your coding skills to the <strong>next level</strong>?</h2>
+          <p><a href="#" class="btn btn-lg btn-block btn-success">Yes, sign me up!</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <p>
+            <a href="#"><img src="assets/img/logo.png" alt="Bootstrap To Wordpress"></a>
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <nav>
+            <ul class="list-inline text-center">
+              <li class="list-inline-item"><a href="#">Home</a></li>
+              <li class="list-inline-item"><a href="#">Blog</a></li>
+              <li class="list-inline-item"><a href="#">Resources</a></li>
+              <li class="list-inline-item"><a href="#">Contact</a></li>
+              <li class="list-inline-item signup-link"><a href="#">Sign up now</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-sm-3">
+          <p class="text-right">&copy; 2018 BH</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="myModalLabel">
+            <i class="fas fa-envelope"></i> Subscribe To Our Mailing List</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ab aperiam voluptatibus asperiores perspiciatis facilis
+            eum voluptates dolorum unde ducimus.</p>
+
+          <form>
+            <div class="form-group">
+              <label for="subscribe-name">Your Name</label>
+              <input type="text" class="form-control" id="subscribe-name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <label for="subscribe-email">Your Email</label>
+              <input type="email" class="form-control" id="subscribe-email" placeholder="Your Email">
+            </div>
+            <button type="submit" class="btn btn-danger text-center">Subscribe!</button>
+          </form>
+          <hr>
+          <p>
+            <small>By providing your email you consent to receiving occasional promotional emails &amp; newsletters. No Spam. Just
+              good stuff. We respect your privacy &amp; you may unsubscribe at any time.</small>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
